@@ -1,13 +1,14 @@
 {
   "name": "vuepress-plugin-gotop-plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "VuePress回到页首插件Plus. back-to-top plus plugin for VuePress.",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node ./postinstall.js"
   },
   "repository": {
     "type": "git",
